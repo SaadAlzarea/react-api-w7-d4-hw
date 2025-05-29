@@ -13,29 +13,29 @@ function Nav() {
 
   return (
     <div>
-      <nav className="bg-gray-800 p-4">
+      <nav className="bg-gray-200 p-4">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
-          <p className="text-white text-xl font-bold">MyLogo</p>
+
 
           {/* Navigation Links */}
-          <ul className="flex space-x-4 text-white">
+          <ul className="flex space-x-4 text-black">
             <li>
               <p className="md:hidden lg:hidden">
                 <RxHamburgerMenu />
               </p>
             </li>
             <li className="hidden md:block lg:block">
-              <p className="hover:text-gray-400">Home</p>
+              <p className="hover:text-gray-800">Home</p>
             </li>
             <li className="hidden md:block lg:block">
-              <p className="hover:text-gray-400">Contact</p>
+              <p className="hover:text-gray-800">Contact</p>
             </li>
             <li className="hidden md:block lg:block">
-              <p className="hover:text-gray-400">About</p>
+              <p className="hover:text-gray-800">About</p>
             </li>
             <li className="hidden md:block lg:block">
-              <p className="hover:text-gray-400">Support</p>
+              <p className="hover:text-gray-800">Support</p>
             </li>
           </ul>
 
